@@ -12,10 +12,27 @@ plugins {
 
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
+
+    id 'maven-publish'
 }
 
 group = 'ru.yurtitov.arco'
 version = '0.1.0-alpha01'
+
+publishing {
+    publications {
+        myLibrary(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            name = 'myRepo'
+            url = layout.buildDirectory.dir("repo")
+        }
+    }
+}
 
 repositories {
     // Use Maven Central for resolving dependencies.
