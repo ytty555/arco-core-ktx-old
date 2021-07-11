@@ -1,4 +1,4 @@
-package ru.yurtitov.arco.core.informer
+package ru.yurtitov.arco.informer
 
 interface Event<out V> {
     val payload: V

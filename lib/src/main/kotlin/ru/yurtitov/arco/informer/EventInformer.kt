@@ -3,7 +3,6 @@ package ru.yurtitov.arco.informer
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import io.reactivex.subjects.Subject
-import ru.yurtitov.arco.core.informer.Event
 
 abstract class EventInformer<T> {
     private val _observable: Subject<Event<T>> = PublishSubject.create()
