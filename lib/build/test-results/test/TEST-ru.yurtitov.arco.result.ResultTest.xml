@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.yurtitov.arco.result.ResultTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-07-11T20:57:15" hostname="Yuriys-MBP" time="0.023">
+  <properties/>
+  <testcase name="test_orElse_whenThisSuccess_thenReturnSameSuccess" classname="ru.yurtitov.arco.result.ResultTest" time="0.003"/>
+  <testcase name="test_map_whenThisIsSuccess_thenReturnSuccess" classname="ru.yurtitov.arco.result.ResultTest" time="0.003"/>
+  <testcase name="test_orElse_whenThisIsEmptyAndDefaultValueThrowsRTE_thenReturnFailureRTE" classname="ru.yurtitov.arco.result.ResultTest" time="0.003"/>
+  <testcase name="test_map_whenThisIsSuccessAndParamThrowRTE_thenReturnFailureRTE" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_flatMap_whenThisIsSuccess_thenReturnSuccess" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_invoke_whenThisIsSuccess_thenReturnSuccess" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_map_whenThisIsFailureNPE_thenReturnFailureNPE" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <testcase name="test_getOrElse_whenThisIsFailure_thenReturnDefault" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_flatMap_whenThisIsEmptyAndParamThrowRTE_thenReturnEmpty" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <testcase name="test_invoke_whenThisIsFailureNPE_thenReturnFailureNPE" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_getOrElse_whenThisIsEmpty_thenReturnDefaultValue" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_orElse_whenThisIsFailureAndDefaultValueThrowsRTE_thenReturnFailureRTE" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_getOrElse_whenThisIsSuccess_thenReturnTheParam" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_flatMap_whenThisIsSuccessAndParamThrowRTE_thenReturnFailureRTE" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_map_whenThisIsEmpty_thenReturnEmpty" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <testcase name="test_orElse_whenThisFailure_thenReturnDefaultValue" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <testcase name="test_flatMap_whenThisIsEmpty_thenReturnEmpty" classname="ru.yurtitov.arco.result.ResultTest" time="0.0"/>
+  <testcase name="test_flatMap_whenThisIsFailureNPE_thenReturnFailureNPE" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <testcase name="test_orElse_whenThisIsSuccessAndDefaultValueThrowsRTE_thenReturnSuccess" classname="ru.yurtitov.arco.result.ResultTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

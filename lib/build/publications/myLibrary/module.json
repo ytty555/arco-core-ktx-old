@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.yurtitov.arco",
+    "module": "lib",
+    "version": "0.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-0.1.0-alpha01.jar",
+          "url": "lib-0.1.0-alpha01.jar",
+          "size": 9976,
+          "sha512": "5bc41f7894703e800c31f023d89512df3f799a8de89d7f1af3a27b90422904d5ef09e6a16b7f47afac45ad3e459fffd79a8515d34a513f40f319ebda40436abe",
+          "sha256": "099c116b93d92098527d27c8f2a6c83889efb17853f922dc52523743e12c4649",
+          "sha1": "19cbb1859bb9ae9730f696550189ed1c08cc761e",
+          "md5": "12af0e7597c101eb4c83a499dcf53c53"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.4.31"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1-jre"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-0.1.0-alpha01.jar",
+          "url": "lib-0.1.0-alpha01.jar",
+          "size": 9976,
+          "sha512": "5bc41f7894703e800c31f023d89512df3f799a8de89d7f1af3a27b90422904d5ef09e6a16b7f47afac45ad3e459fffd79a8515d34a513f40f319ebda40436abe",
+          "sha256": "099c116b93d92098527d27c8f2a6c83889efb17853f922dc52523743e12c4649",
+          "sha1": "19cbb1859bb9ae9730f696550189ed1c08cc761e",
+          "md5": "12af0e7597c101eb4c83a499dcf53c53"
+        }
+      ]
+    }
+  ]
+}
